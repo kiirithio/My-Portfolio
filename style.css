@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle:wght@700&family=Rouge+Script&display=swap');
+body{
+    background-color:#17252A;
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 76vw;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 33px;
+    align-items: center;
+    border-bottom: #DEF2F1 2px solid;
+    
+}
+nav.fixed {
+    position: fixed;
+    
+  }
+
+nav label a{
+    text-decoration: none;
+    font-size: 75px;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    margin: 0;
+    
+}
+nav ul li{
+    float: left;
+    
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  0 13px;
+    text-decoration: none;
+}
+nav a:hover {
+    color:#3AAFA9;
+  }
+nav ul li.active{
+    color:#17252A;
+    border-radius: 30px;
+    background-color:#3AAFA9;
+}
+nav ul li.active a{
+    color:#17252A;
+}
+nav ul li a:hover {
+    color:#17252A;
+    border-radius: 30px;
+    background-color:#3AAFA9;
+  }
+
+.home-main{
+    width: 76vw;
+    height: 65vh;
+    align-items: center;
+}
+main{
+    width: 76vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.card-item{
+    width: 50%;
+    height: 30%;
+    padding: 0 20px; 
+    line-height: 1em; 
+}
+.hello{
+    background-color:#3AAFA9;
+    display: inline-block;
+    color:#17252A;
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px 15px 8px;
+    border-radius: 30px;  
+}
+.card-item h1{
+    color:white;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.card-item h2{
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+.card-item p{
+    color:#ffffff;
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.card-item a{
+    color:#ffffff;
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 5px;
+}
+.card-item h3{
+    color:#ffffff;
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.card-item h4{
+    color:#ffffff;
+    opacity: 70%;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.card-item h5{
+    color:#ffffff;
+    opacity: 50%;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.border-line{
+    border-left: #DEF2F1 2px solid;
+    padding-left: 25px;
+}
+.home-right-card{
+    width: 50%;
+    height: 30%;
+    align-content: center;
+    padding-left: 150px;
+    
+}
+.home-right-card img{
+    width: 60%;
+    border: 10px solid #DEF2F1; 
+    align-self: center;
+    border-radius: 50%;
+    outline: 15px solid #3AAFA9;
+ 
+}
+.header {
+    background-color:#17252A;
+    
+  }
+ 
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    will-change: transform;
+  }
+  
+.sticky--top {
+    top: 0;
+  }
+
+.skills-items img{
+    padding: auto;
+    width: 60px;
+    height: 60px;
+}
+.skills-items ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    
+}
+.skills-items ul li{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.skills-items ul li p{
+    font-size: 16px;
+}
+.projects-page{
+    width: 76vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallerywrapper {
+    width:640px;
+    height:450px;
+    margin:0 auto;
+    position:relative;
+} 
+
+#gallerywrapper #gallery {
+    position:absolute;
+    left:0;
+    top:0;
+    height:450px;
+    width:640px;
+    overflow:hidden;
+    text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+    width:640px; height:900px; 
+    padding-top:10px; 
+    position:relative;
+} 
+
+#gallerywrapper #gallery div img {
+    clear:both; 
+    display:block; 
+    margin:0 auto; 
+    border:0;
+} 
+
+#gallerywrapper #gallery div h3 {
+    padding:10px 0 0 0; 
+    margin:0; 
+    font-size:18px;
+} 
+
+#gallerywrapper #gallery div p {
+    padding:5px 0; 
+    margin:0; 
+    font-size:12px; 
+    line-height:18px;
+} 
+
+#gallery .previous{ 
+    display:inline;
+    float:left;
+    margin-left:80px;
+    text-decoration:none;
+} 
+
+#gallery .next{ 
+    display:inline;
+    float:right;
+    margin-right:80px;
+    text-decoration:none;
+}
